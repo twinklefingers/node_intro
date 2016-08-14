@@ -4,9 +4,3 @@
 exports.randomNum = function(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
-
-// module.exports = randomNum(100, 1000000);
-// // OR
-// exports.randomNum = function() {
-//     return randomNum(100, 1000000);
-// }
